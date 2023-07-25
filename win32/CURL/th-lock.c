@@ -8,8 +8,8 @@
 		#pragma comment(lib, "v12_s"RTLIB"_libeay32.lib")
 		#pragma comment(lib, "v12_s"RTLIB"_ssleay32.lib")
 	#elif _MSC_VER == 1900
-		#pragma comment(lib, "v14_smdd_libeay32.lib")
-		#pragma comment(lib, "v14_smdd_ssleay32.lib")
+		#pragma comment(lib, "v14_s"RTLIB"_libeay32.lib")
+		#pragma comment(lib, "v14_s"RTLIB"_ssleay32.lib")
 	#endif
 #else
 	#if _MSC_VER == 1800
