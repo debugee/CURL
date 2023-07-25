@@ -2,7 +2,7 @@
 
 
 #ifdef _DEBUG
-#pragma comment(lib, "libcurl-d_imp.lib")
+#pragma comment(lib, "v12_smdd_libcurl.lib")
 #else
-#pragma comment(lib, "libcurl_imp.lib")
+#pragma comment(lib, "v12_smd_libcurl.lib")
 #endif
